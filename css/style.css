@@ -4,6 +4,7 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     src: local("Roboto"), url("../fonts/roboto.woff2") format("woff2"), url("../fonts/roboto.woff") format("woff");
 }
 
@@ -11,6 +12,7 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
+    font-display: swap;
     src: local("Roboto"), url("../fonts/robotomedium.woff2") format("woff2"), url("../fonts/robotomedium.woff") format("woff");
 }
 
@@ -18,6 +20,7 @@
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
+    font-display: swap;
     src: local("Roboto"), url("../fonts/robotobold.woff2") format("woff2"), url("../fonts/robotobold.woff") format("woff");
 }
 
@@ -42,14 +45,22 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', "Arial", sans-serif;
     font-size: 16px;
     line-height: 24px;
-
+    font-weight: normal;
 }
 
 .main-header {
     background-color: var(--basic-gray);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
 }
 
 a {
@@ -62,30 +73,30 @@ img {
 }
 
 .wrapper {
-    width: 1157px;
+    width: 1160px;
     margin: 0 auto;
 }
 
-li {
+.list-reset {
+    margin: 0;
+    padding: 0;
     list-style: none;
+
 }
 
-.menu-item, .cart-link {
-  text-transform: uppercase; 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-    
-}
-
-.menu-item a, .cart-link {
-  color: var(--basic-black);
+.menu-item a,
+.cart-link {
+    color: var(--basic-black);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .slider-item-title {
     font-weight: 500;
     font-size: 55px;
-    line-height: 55px;  
+    line-height: 55px;
 }
 
 .button {
@@ -102,7 +113,7 @@ li {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .services-list li:nth-child(2n) a {
@@ -116,12 +127,12 @@ li {
 .description-title {
     font-weight: 500;
     font-size: 45px;
-    line-height: 45px; 
+    line-height: 45px;
 }
 
 .description-list-title {
-  font-weight: bold;
-  text-transform: uppercase;  
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .description-item {
@@ -136,18 +147,17 @@ li {
 .statistic-persent {
     font-weight: bold;
     font-size: 45px;
-    line-height: 64px;  
+    line-height: 64px;
 }
 
 .statistic-description {
-    font-weight: normal;
     font-size: 16px;
-    line-height: 18px; 
+    line-height: 18px;
     color: var(--basic-black-text);
 }
 
 .client-image {
-    opacity: 0.2;  
+    opacity: 0.2;
 }
 
 .info {
@@ -155,34 +165,28 @@ li {
 }
 
 .info h3 {
-    font-weight: bold;
     font-size: 18px;
     line-height: 30px;
     text-transform: uppercase;
 }
 
-.info p, .info-phone-link {
-    font-weight: normal;
-    font-size: 16px;
+.info p,
+.info-phone-link {
     line-height: 18px;
-    color: var(--basic-text); 
+    color: var(--basic-text);
 }
 
 .friends h3 {
-    font-weight: bold;
     font-size: 36px;
-    line-height: 36px; 
-} 
+    line-height: 36px;
+}
 
 .friends p {
-    font-weight: normal;
-    font-size: 16px;
     line-height: 22px;
-    color: var(--basic-black-light); 
+    color: var(--basic-black-light);
 }
 
 .social-icons-svg {
-    background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF; ;
+    background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+    ;
 }
-
-

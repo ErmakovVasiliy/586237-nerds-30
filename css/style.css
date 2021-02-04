@@ -95,9 +95,7 @@ img {
 
 }
 
-
-
-a .main-header-svg:active path {
+.main-header-svg:active path {
     fill: var(--basic-logo);
 }
 

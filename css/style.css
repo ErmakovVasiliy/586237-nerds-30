@@ -108,7 +108,6 @@ img {
 	color: var(--basic-black);
 	text-transform: uppercase;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 30px;
 }
 
@@ -132,7 +131,6 @@ img {
 	background-color: var(--basic-red);
 	padding: 17px 54px 15px;
 	border-radius: 3px;
-	font-size: 16px;
 	line-height: 18px;
 	text-transform: uppercase;
 }
@@ -206,7 +204,6 @@ img {
 }
 
 .statistic-description {
-	font-size: 16px;
 	line-height: 18px;
 	color: var(--basic-black-text);
 }
@@ -275,7 +272,6 @@ fieldset {
 	border: none;
 	background: var(--basic-gray);
 	color: var(--basic-black);
-	font-size: 16px;
 	line-height: 18px;
 	font-weight: 500;
 }
@@ -330,7 +326,6 @@ fieldset {
 }
 
 .option-item {
-	font-size: 16px;
 	line-height: 20px;
 	color: var(--basic-black-text);
 	margin-bottom: 20px;
@@ -338,7 +333,6 @@ fieldset {
 
 .pagination-item-link {
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 18px;
 	color: var(--basic-black);
 	padding: 10px;

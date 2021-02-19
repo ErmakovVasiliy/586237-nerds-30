@@ -8,7 +8,7 @@
 	<title>Нёрдс</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
-
+<!-- Для задание по Сетка на гридах для внутренней страницы -->
 <body class="page">
 	<header class="main-header ">
 		<h1 class="visually-hidden">Студия дизайна Nerds</h1>
@@ -88,7 +88,7 @@
 
 					</div>
 					<h3 class="service-item-title">Веб-сайты</h3>
-					<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+					<p class="service-item-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
 					<a class="service-item-link button" href="#">Заказать</a>
 				</li>
 				<li class="services-item">
@@ -96,7 +96,7 @@
 						<img src="img/illustration-2.png" width="300" height="146" alt="Приложения">
 					</div>
 					<h3 class="service-item-title">Приложения</h3>
-					<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+					<p class="service-item-text">Покорите топ-10 приложений в AppStore и Google Play</p>
 					<a class="service-item-link button" href="#">Заказать</a>
 				</li>
 				<li class="services-item">
@@ -104,7 +104,7 @@
 						<img src="img/illustration-3.png" width="300" height="146" alt="Презентации">
 					</div>
 					<h3 class="service-item-title">Презентации</h3>
-					<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+					<p class="service-item-text">Вы даже не подозреваете, насколько вы изумительны!</p>
 					<a class="service-item-link button" href="#">Заказать</a>
 				</li>
 			</ul>
@@ -137,9 +137,9 @@
 				<p class="statistic-title">с 2004 года Любим точность во всем:</p>
 				<table>
 					<tr>
-						<td class="statistic-persent">146 <sup>%</sup></td>
-						<td class="statistic-persent">100 <sup>%</sup></td>
-						<td class="statistic-persent">50 <sup>%</sup></td>
+						<td class="statistic-persent">146<sup class="percent-sup">%</sup></td>
+						<td class="statistic-persent">100<sup class="percent-sup">%</sup></td>
+						<td class="statistic-persent">50<sup class="percent-sup">%</sup></td>
 					</tr>
 					<tr>
 						<td class="statistic-description">Уровень самоотдачи</td>
@@ -234,6 +234,34 @@
 		</section>
 
 	</footer>
+
+	<section class="popup  visually-hidden">
+		<form action="#" method="POST">
+			<h2>Напишите нам</h2>
+			<p>
+				<label>
+					Ваше имя:
+					<input type="text" placeholder="Имя Фамилия">
+
+				</label>
+			</p>
+			<p>
+				<label>
+					Ваш email:
+					<input type="text" placeholder="email@example.com">
+
+				</label>
+			</p>
+			<p>
+				Текст письма:
+				<textarea name="" id="" cols="30" rows="10" placeholder="В свободной форме">
+				</textarea>
+			</p>
+		</form>
+		<button class="modal-close" type="button" aria-label="Закрыть"></button>
+
+
+	</section>
 
 
 </body>

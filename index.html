@@ -7,8 +7,10 @@
 	<link rel="icon" href="favicon.svg" type="image/svg+xml">
 	<title>Нёрдс</title>
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=1200">
 </head>
 <!-- Для задание по Сетка на гридах для внутренней страницы -->
+
 <body class="page">
 	<header class="main-header ">
 		<h1 class="visually-hidden">Студия дизайна Nerds</h1>
@@ -38,6 +40,7 @@
 					<li class="menu-item">
 						<a class="menu-item-link" href="#">Контакты</a>
 					</li>
+
 				</ul>
 			</nav>
 			<a class="cart-link" href="#">Корзина</a>
@@ -107,6 +110,7 @@
 					<p class="service-item-text">Вы даже не подозреваете, насколько вы изумительны!</p>
 					<a class="service-item-link button" href="#">Заказать</a>
 				</li>
+			
 			</ul>
 
 		</section>
@@ -183,7 +187,7 @@
 			<!-- <iframe src="#" frameborder="0"></iframe> -->
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003151!2d30.32085871621117!3d59.9387191690541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1612695125220!5m2!1sru!2sru"
-				width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+				width="100%" height="416" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
 				tabindex="0"></iframe>
 			<div class="wrapper">
 				<section class="info ">
@@ -235,35 +239,36 @@
 
 	</footer>
 
-	<section class="popup  visually-hidden">
-		<form action="#" method="POST">
-			<h2>Напишите нам</h2>
+	<section class="popup ">
+		<form class="login-form" action="#" method="POST">
+			<h2 class="popup-title">Напишите нам</h2>
 			<p>
-				<label>
+				<label class="popup-label">
 					Ваше имя:
-					<input type="text" placeholder="Имя Фамилия">
+					<input class="popup-input" type="text" placeholder="Имя Фамилия">
 
 				</label>
 			</p>
 			<p>
-				<label>
+				<label class="popup-label">
 					Ваш email:
-					<input type="text" placeholder="email@example.com">
+					<input class="popup-input" type="text" placeholder="email@example.com">
 
 				</label>
 			</p>
-			<p>
+			<p class="popup-text">
 				Текст письма:
-				<textarea name="" id="" cols="30" rows="10" placeholder="В свободной форме">
+				<textarea class="popup-textarea" name="" id="" cols="30" rows="10" placeholder="В свободной форме">
 				</textarea>
 			</p>
+			<input class="button button-modal" type="submit" name="btn-send" value="Отправить">
 		</form>
-		<button class="modal-close" type="button" aria-label="Закрыть"></button>
+		<button class="modal-close " type="button" aria-label="Закрыть"></button>
 
 
 	</section>
 
-
+	<script src="js/popup.js"></script>
 </body>
 
 </html>

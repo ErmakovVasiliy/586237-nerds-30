@@ -7,6 +7,7 @@
 	<link rel="icon" href="favicon.svg" type="image/svg+xml">
 	<title>HTML Academy: Нёрдс</title>
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=1200">
 </head>
 
 <body class="page">
@@ -34,11 +35,12 @@
 						<a class="menu-item-link" href="#">Клиенты</a>
 					</li>
 					<li class="menu-item">
-						<a class="menu-item-link">Магазин</a>
+						<a class="menu-item-link active">Магазин</a>
 					</li>
 					<li class="menu-item">
 						<a class="menu-item-link" href="#">Контакты</a>
 					</li>
+
 				</ul>
 			</nav>
 			<a class="cart-link" href="#">Корзина</a>
@@ -151,7 +153,7 @@
 						<li class="sort-item">
 							<a class="sort-item-link" href="#">По названию</a>
 						</li>
-						<li  class="sort-item active">
+						<li class="sort-item active">
 							<a href="">
 								<svg width="11" height="10" viewbox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<g opacity="0.2">
@@ -160,14 +162,15 @@
 								</svg>
 							</a>
 						</li>
-						<li  class="sort-item">
+						<li class="sort-item">
 							<a href="">
 								<svg width="11" height="10" viewbox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<g opacity="0.2">
 										<path d="M5.5 0L0 10H11L5.5 0Z" fill="#A6A6A6" />
 									</g>
 								</svg>
-							</a></li>
+							</a>
+						</li>
 					</ul>
 				</section>
 				<section class="catalog-site">
@@ -178,11 +181,12 @@
 									d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
 									fill="#4D4D4D" />
 							</svg>
-							<img src="img/catalog_sites/img-sedona.jpg" width="358" height="578" alt="Седона">
+							<img class="site-item-img" src="img/catalog_sites/img-sedona.jpg" width="360" height="578"
+								alt="Седона">
 							<div class="site-item-description">
-								<a class="site-item-link" href="#">
-									<h3 class="site-item-title">SEDONA</h3>
-								</a>
+								<h3 class="site-item-title">
+									<a class="site-item-link" href="#">SEDONA</a>
+								</h3>
 								<p class="description-text">Информационный сайт для туристов</p>
 								<span class="price button">9 900 руб.</span>
 							</div>
@@ -193,11 +197,12 @@
 									d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
 									fill="#4D4D4D" />
 							</svg>
-							<img src="img/catalog_sites/img-pink.jpg" width="358" height="578" alt="Pink">
+							<img class="site-item-img" src="img/catalog_sites/img-pink.jpg" width="360" height="578"
+								alt="Pink">
 							<div class="site-item-description">
-								<a class="site-item-link" href="#">
-									<h3 class="site-item-title">PINK APP</h3>
-								</a>
+								<h3 class="site-item-title"><a class="site-item-link" href="#">
+										PINK APP
+									</a></h3>
 								<p class="description-text">Продуктовый лендинг приложения для iOS и Android</p>
 								<span class="price button">9 900 руб.</span>
 							</div>
@@ -208,11 +213,12 @@
 									d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
 									fill="#4D4D4D" />
 							</svg>
-							<img src="img/catalog_sites/img-barbershop.jpg" width="358" height="578" alt="Барбершоп">
+							<img class="site-item-img" src="img/catalog_sites/img-barbershop.jpg" width="360" height="578"
+								alt="Барбершоп">
 							<div class="site-item-description">
-								<a class="site-item-link" href="#">
-									<h3 class="site-item-title">Barbershop</h3>
-								</a>
+								<h3 class="site-item-title">
+									<a class="site-item-link" href="#">Barbershop</a>
+								</h3>
 								<p class="description-text">Сайт салоны красоты. Для мужчин, да.</p>
 								<span class="price button">9 900 руб.</span>
 							</div>
@@ -223,11 +229,12 @@
 									d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
 									fill="#4D4D4D" />
 							</svg>
-							<img src="img/catalog_sites/img-mishka.jpg" width="358" height="578" alt="Мишка">
+							<img class="site-item-img" src="img/catalog_sites/img-mishka.jpg" width="360" height="578"
+								alt="Мишка">
 							<div class="site-item-description">
-								<a class="site-item-link" href="#">
-									<h3 class="site-item-title">MISHKA</h3>
-								</a>
+								<h3 class="site-item-title">
+									<a class="site-item-link" href="#">MISHKA</a>
+								</h3>
 								<p class="description-text">Интернет-магазин вязаных игрушек</p>
 								<span class="price button">9 900 руб.</span>
 							</div>
@@ -238,11 +245,12 @@
 									d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
 									fill="#4D4D4D" />
 							</svg>
-							<img src="img/catalog_sites/img-aplus.jpg" width="358" height="578" alt="Аплюс">
+							<img class="site-item-img" src="img/catalog_sites/img-aplus.jpg" width="360" height="578"
+								alt="Аплюс">
 							<div class="site-item-description">
-								<a class="site-item-link" href="#">
-									<h3 class="site-item-title">A Plus</h3>
-								</a>
+								<h3 class="site-item-title">
+									<a class="site-item-link" href="#">A Plus</a>
+								</h3>
 								<p class="description-text">Лендинг курсов повышения квалификации</p>
 								<span class="price button">9 900 руб.</span>
 							</div>
@@ -253,11 +261,12 @@
 									d="M4 0H356C358.2 0 360 1.8 360 4V40H0V4C0 1.8 1.8 0 4 0ZM16.9288 23.5C18.1792 25.6658 20.4901 27 22.991 27C26.857 27 29.991 23.866 29.991 20C29.991 16.134 26.857 13 22.991 13C20.4901 13 18.1792 14.3342 16.9288 16.5C15.6784 18.6658 15.6784 21.3342 16.9288 23.5ZM46.002 27C43.5011 27 41.1902 25.6658 39.9398 23.5C38.6893 21.3342 38.6893 18.6658 39.9398 16.5C41.1902 14.3342 43.5011 13 46.002 13C49.8679 13 53.002 16.134 53.002 20C53.002 23.866 49.8679 27 46.002 27ZM62.9508 23.5C64.2012 25.6658 66.5121 27 69.0129 27C72.8789 27 76.0129 23.866 76.0129 20C76.0129 16.134 72.8789 13 69.0129 13C66.5121 13 64.2012 14.3342 62.9508 16.5C61.7003 18.6658 61.7003 21.3342 62.9508 23.5Z"
 									fill="#4D4D4D" />
 							</svg>
-							<img src="img/catalog_sites/img-kvast.jpg" width="358" height="578" alt="Кваст">
+							<img class="site-item-img" src="img/catalog_sites/img-kvast.jpg" width="360" height="578"
+								alt="Кваст">
 							<div class="site-item-description">
-								<a class="site-item-link" href="">
-									<h3 class="site-item-title">КВАСТ</h3>
-								</a>
+								<h3 class="site-item-title">
+									<a class="site-item-link" href="">КВАСТ</a>
+								</h3>
 								<p class="description-text">Промо-сайт производителя крафтового кваса</p>
 								<span class="price button">9 900 руб.</span>
 							</div>
@@ -336,6 +345,36 @@
 
 		</section>
 	</footer>
+	<section class="popup ">
+		<form class="login-form" action="#" method="POST">
+			<h2 class="popup-title">Напишите нам</h2>
+			<p>
+				<label class="popup-label">
+					Ваше имя:
+					<input class="popup-input" type="text" placeholder="Имя Фамилия">
+
+				</label>
+			</p>
+			<p>
+				<label class="popup-label">
+					Ваш email:
+					<input class="popup-input" type="text" placeholder="email@example.com">
+
+				</label>
+			</p>
+			<p class="popup-text">
+				Текст письма:
+				<textarea class="popup-textarea" name="" id="" cols="30" rows="10" placeholder="В свободной форме">
+				</textarea>
+			</p>
+			<input class="button button-modal" type="submit" name="btn-send" value="Отправить">
+		</form>
+		<button class="modal-close " type="button" aria-label="Закрыть"></button>
+
+
+	</section>
+	<script src="js/popup.js"></script>
+
 </body>
 
 </html>

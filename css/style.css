@@ -315,7 +315,6 @@ img {
 .info-link {
 	display: block;
 	width: 220px;
-	height: 50px;
 	box-sizing: border-box;
 	padding: 16px 44px;
 	margin-top: 37px;
@@ -523,11 +522,9 @@ button::-moz-focus-inner {
 }
 
 .clients-list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding-bottom: 40px;
-	padding-top: 40px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
 	border-bottom: 2px solid var(--basic-gray);
 	border-top: 2px solid var(--basic-gray);
 }
@@ -536,7 +533,6 @@ button::-moz-focus-inner {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-right: 96px;
 	position: relative;
 }
 
@@ -551,7 +547,7 @@ button::-moz-focus-inner {
 	height: 52px;
 	background-color: var(--basic-gray);
 	top: 18px;
-	right: -40px;
+	right: -8px;
 }
 
 .client-item:last-child::after {
@@ -614,6 +610,7 @@ button::-moz-focus-inner {
 
 .slider-bullet-btn {
 	position: relative;
+	vertical-align: bottom;
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
@@ -768,7 +765,7 @@ button::-moz-focus-inner {
 	top: 30px;
 }
 
-.map .info {
+.info {
 	margin: 0;
 	padding: 49px 50px 47px;
 	box-sizing: border-box;

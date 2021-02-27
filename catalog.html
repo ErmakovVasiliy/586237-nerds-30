@@ -7,7 +7,8 @@
 	<link rel="icon" href="favicon.svg" type="image/svg+xml">
 	<title>HTML Academy: Нёрдс</title>
 	<link rel="stylesheet" href="css/style.css">
-	<meta name="viewport" content="width=1200">
+	<link rel="stylesheet" href="css/normalize.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="page">
@@ -50,8 +51,8 @@
 	<main>
 		<div class="wrapper main-filter">
 			<form class="filter" method="GET" action="">
-				<fieldset>
-					<legend class="filter-title">Стоимость:</legend>
+				<fieldset class="range">
+					<legend class="range-title">Стоимость:</legend>
 					<!-- для ползунка -->
 					<div class="range-filter">
 						<div class="range-control">
@@ -72,8 +73,8 @@
 						</label>
 					</div>
 				</fieldset>
-				<fieldset>
-					<legend class="filter-title">Сетка:</legend>
+				<fieldset class="option">
+					<legend class="option-title">Сетка:</legend>
 					<ul class="list-reset">
 						<li class="option-item">
 							<label class="radio">
@@ -98,8 +99,8 @@
 						</li>
 					</ul>
 				</fieldset>
-				<fieldset>
-					<legend class="filter-title">Особенности:</legend>
+				<fieldset class="features">
+					<legend class="features-title">Особенности:</legend>
 					<ul class="list list-reset">
 						<li class="option-item">
 							<label class="check">
@@ -153,8 +154,8 @@
 						<li class="sort-item">
 							<a class="sort-item-link" href="#">По названию</a>
 						</li>
-						<li class="sort-item active">
-							<a href="">
+						<li class="sort-item sort-down active">
+							<a href="#">
 								<svg width="11" height="10" viewbox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<g opacity="0.2">
 										<path d="M5.5 10L0 0H11" fill="#A6A6A6" />
@@ -162,8 +163,8 @@
 								</svg>
 							</a>
 						</li>
-						<li class="sort-item">
-							<a href="">
+						<li class="sort-item sort-up">
+							<a href="#">
 								<svg width="11" height="10" viewbox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<g opacity="0.2">
 										<path d="M5.5 0L0 10H11L5.5 0Z" fill="#A6A6A6" />

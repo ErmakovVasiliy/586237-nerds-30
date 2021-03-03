@@ -3,17 +3,19 @@ window.onload = function () {
 	let btnOpen = document.querySelector('.info-link');
 	let btnClose = document.querySelector('.modal-close');
 
+	if (modal) {
+		btnOpen.addEventListener('click', function(event){
+			event.preventDefault();
+			modal.classList.add('popup-open');
+		});
+
+		btnClose.addEventListener('click', function(event){
+			event.preventDefault();
+			modal.classList.remove('popup-open');
+		
+	});
 	
-
-	btnOpen.onclick = function() {
-		modal.style.display = "block";
-	 }
-
-	 btnClose.onclick = function() {
-		modal.style.display = "none";
-	 } 
-
 	
 }
 
-
+}

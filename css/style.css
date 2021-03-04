@@ -294,8 +294,6 @@ img {
 	padding-top: 12px;
 }
 
-
-
 .percent-sup {
 	font-weight: bold;
 	font-size: 26px;
@@ -430,12 +428,13 @@ fieldset {
 }
 
 .button-submit:hover {
-	background: var(--basi-paginathion-hover);
+	background:  var(--basic-paginathion-hover);
 }
 
 .button-submit:active {
 	background: #D5D5D5;
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+	color: rgba(255, 255, 255, 0.3);
 }
 
 button:active, button:focus {
@@ -528,7 +527,6 @@ button::-moz-focus-inner {
 	background-color: #D5D5D5;
 	color: rgba(255, 255, 255, 0.3);
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
-	
 }
 
 .active .pagination-item-link {
@@ -630,7 +628,6 @@ button::-moz-focus-inner {
 	background-position-y: -3px;
 }
 
-
 .slider-item:nth-child(3n) {
 	background-image: url(../img/nerds-index-slide3.png);
 	background-repeat: no-repeat;
@@ -641,7 +638,7 @@ button::-moz-focus-inner {
 .slider-item-text {
 	max-width: 416px;
 	margin-bottom: 26px;
-	margin-top:39px;
+	margin-top: 39px;
 }
 
 .slider-item:first-child .slider-item-text {
@@ -1070,7 +1067,7 @@ button::-moz-focus-inner {
 	display: none;
 }
 
-.popup-open	{
+.popup-open {
 	display: block;
 }
 
@@ -1129,7 +1126,6 @@ button::-moz-focus-inner {
 	margin-top: 9px;
 	opacity: 0.5;
 }
-
 
 .login-form {
 	display: grid;

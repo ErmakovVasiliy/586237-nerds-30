@@ -1,0 +1,1 @@
+window.onload=function(){let n=document.querySelector(".popup"),e=document.querySelector(".info-link"),o=document.querySelector(".modal-close");n&&(e.addEventListener("click",function(e){e.preventDefault(),n.classList.add("popup-open")}),o.addEventListener("click",function(e){e.preventDefault(),n.classList.remove("popup-open")}))};

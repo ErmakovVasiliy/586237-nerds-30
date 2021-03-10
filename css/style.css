@@ -248,9 +248,10 @@ img {
 	font-size: 45px;
 	line-height: 45px;
 	margin: 0;
-	padding-bottom: 35px;
+	padding-bottom: 18px;
 	padding-top: 34px;
 }
+
 
 .description-list-title {
 	font-weight: bold;
@@ -266,13 +267,18 @@ img {
 	padding-bottom: 25px;
 }
 
-.description-text {
-	padding-bottom: 40px;
+.site-item-description .description-text {
+	width: 255px;
+	padding-bottom: 33px;
 	overflow: auto;
 	max-height: 350px;
 	color: var(--basic-text);
-	line-height: 24px;
+	line-height: 18px;
 	margin: 0 auto;
+}
+
+.description-text {
+	padding-bottom: 24px;
 }
 
 .description-item::before {
@@ -361,7 +367,7 @@ img {
 
 .friends h3 {
 	margin: 0;
-	padding-top: 6px;
+	padding-top: 16px;
 	font-size: 36px;
 	line-height: 36px;
 }
@@ -369,6 +375,7 @@ img {
 .friends p {
 	line-height: 22px;
 	color: var(--basic-black-light);
+	margin-top: 9px;
 }
 
 .social-icons-svg {
@@ -377,11 +384,11 @@ img {
 
 .social-icons {
 	display: flex;
-	margin-right: 139px;
+	margin-right: 127px;
 }
 
 .social-icons-item {
-	margin-right: 9px;
+	margin-right: 13px;
 }
 
 /* catalog style */
@@ -501,7 +508,7 @@ button::-moz-focus-inner {
 	text-transform: uppercase;
 	color: var(--basic-black);
 	margin: 0;
-	padding-bottom: 12px;
+	padding-bottom: 13px;
 }
 
 .option-item {
@@ -573,6 +580,8 @@ button::-moz-focus-inner {
 	border-top: 2px solid var(--basic-gray);
 	padding-top: 44px;
 	padding-bottom: 32px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 .client-item {
@@ -593,7 +602,7 @@ button::-moz-focus-inner {
 	height: 52px;
 	background-color: var(--basic-gray);
 	top: 18px;
-	right: -8px;
+	right: -11px;
 }
 
 .client-item:last-child::after {
@@ -604,6 +613,10 @@ button::-moz-focus-inner {
 
 .slider {
 	background-color: var(--basic-gray);
+	position: relative;
+}
+
+.slider .wrapper {
 	position: relative;
 }
 
@@ -657,7 +670,7 @@ button::-moz-focus-inner {
 .slider-bullet {
 	position: absolute;
 	bottom: 95px;
-	left: 47%;
+	left: 46.4%;
 }
 
 .slider-bullet-btn {
@@ -691,6 +704,8 @@ button::-moz-focus-inner {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	width: 550px;
+	
 }
 
 .menu-list .menu-item {
@@ -753,7 +768,7 @@ button::-moz-focus-inner {
 	grid-template-columns: repeat(2, 360px);
 	column-gap: 42px;
 	row-gap: 30px;
-	padding-bottom: 55px;
+	padding-bottom: 51px;
 }
 
 .main-filter {
@@ -840,7 +855,7 @@ button::-moz-focus-inner {
 	background-image: url("../img/map-marker.png");
 	width: 232px;
 	height: 190px;
-	left: 57%;
+	left: 56.6%;
 	top: 20%;
 }
 
@@ -870,7 +885,7 @@ button::-moz-focus-inner {
 .footer-social-icons {
 	display: flex;
 	align-items: center;
-	padding: 61px 20px;
+	padding: 52px 20px;
 }
 
 .social-icons-item {
@@ -905,6 +920,7 @@ button::-moz-focus-inner {
 .pagination-list {
 	display: flex;
 	align-items: center;
+	margin-bottom: 4px;
 }
 
 .pagination-item {
@@ -944,7 +960,7 @@ button::-moz-focus-inner {
 	border-radius: 3px;
 	text-align: center;
 	border: none;
-	margin-left: 11px;
+	margin-left: 6px;
 	font-family: inherit;
 	font-size: inherit;
 }
@@ -1006,7 +1022,7 @@ button::-moz-focus-inner {
 	width: 23px;
 	height: 23px;
 	top: 0;
-	left: 3px;
+	left: -3px;
 }
 
 .check-input:checked+.check-box {
@@ -1030,12 +1046,12 @@ button::-moz-focus-inner {
 }
 
 .check {
-	padding-left: 44px;
+	padding-left: 35px;
 }
 
 .radio {
 	position: relative;
-	padding-left: 44px;
+	padding-left: 34px;
 }
 
 .radio-btn {
@@ -1044,7 +1060,7 @@ button::-moz-focus-inner {
 	background-image: url("../img/checkbox/radio-off.svg");
 	width: 25px;
 	height: 25px;
-	left: 3px;
+	left: -2px;
 }
 
 .radio-input:checked+.radio-btn {
